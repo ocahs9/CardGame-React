@@ -17,8 +17,8 @@ function Card({idx, selectCard, imgSrc, isFlipped, clickedCards}) {
         onClick={isFlipped? cantClick : handleCard} //이미 돌아가 있는거라면(오픈되어 있다면) 더 클릭하지 못하게 만듬
         $isFlipped = {isFlipped}
       >
-        <FrontImg src={imgSrc} alt='front' />
-        <BackImg src = "/src/assets/react.svg" alt="back" />
+        <FrontImg src={imgSrc} alt='front' /> 
+        <BackImg src = "./images/HeartBreaker.jpeg" alt="back" />
       </CardWrapper>
     </>
   );

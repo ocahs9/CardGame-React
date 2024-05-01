@@ -3,7 +3,7 @@ const CARDLIST = [
     id: 0,
     imgSrc: "./images/albums/검정치마_Special.jpg",
     status: false,
-  },
+  },  
   {
     id: 1,
     imgSrc: "./images/albums/검정치마_TeamBaby.jpg",
